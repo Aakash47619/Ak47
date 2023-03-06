@@ -1,0 +1,94 @@
+.header {
+	background-color: #333;
+	color: white;
+	padding: 30px;
+	text-align: center;
+	font-size: large;
+	font-family:'Times New Roman', Times, serif;
+	
+}
+
+main {
+	margin: 20px;
+}
+
+p {
+	color: blueviolet;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+img {
+	display: block;
+	margin: 10px auto;
+	max-width: 25%;
+	border-radius:30px 50px/120px;
+}
+
+.footer {
+	background-color: #333;
+	color: white;
+	padding: 40px;
+	text-align: center;
+	
+}
+.h1{
+	color: red;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+}
+
+
+
+.card {
+	width: 350px;
+	height: 254px;
+	border-radius: 4px;
+	background: #212121;
+	display: flex;
+	gap: 5px;
+	padding: .4em;
+  }
+  
+  .card p {
+	height: 100%;
+	flex: 1;
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 2px;
+	transition: all .5s;
+	background: #212121;
+	border: 1px solid #ff5a91;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .card p:hover {
+	flex: 4;
+  }
+  
+  .card p span {
+	min-width: 40em;
+	padding: .5em;
+	text-align: center;
+	transform: rotate(-90deg);
+	transition: all .5s;
+	text-transform: uppercase;
+	color: #ff568e;
+	letter-spacing: .1em;
+  }
+  
+  .card p:hover span {
+	transform: rotate(0);
+  }
+
+  .container{
+	background-color: aliceblue;
+	padding: 0.2rem;
+	resize: both;
+	overflow: auto;
+	max-width: 100px;
+	max-height: 300px;
+  }

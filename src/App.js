@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Ls from './Ls'
+import HomePage from './HomePage'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	<>
+  <Ls/>
+  <HomePage/>
+  <center>
+  <button class="btn">
+  <a href="https://www.youtube.com/@themellifluous5624"><b>Click here to view my youtube channel</b></a>
+</button>
+</center>
+<center>
+<div class="card">
+    <p><span><img src="./images/toon.jpg"></img></span></p>
+    <p><span><img src="./images/noon.jpg"></img></span></p>
+    <p><span><img src="./images/boom.jpg"></img></span></p>
+</div>
+</center>
+  <h1 className='h1'>This is tweeter clone app</h1>
+  <footer className="footer">@aakashray</footer>
+
+  </>
+  )
+    
+   
 }
+
 
 export default App;
